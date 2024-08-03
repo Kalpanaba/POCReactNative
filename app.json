@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Myproject",
+    "slug": "Myproject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bsk410.Myproject"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b85b44d9-a90d-4849-812d-e419b4cd781a"
+      }
+    }
+  }
+}
